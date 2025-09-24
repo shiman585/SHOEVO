@@ -1,0 +1,806 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "Downtown Sneaker For Men",
+      "price": 89.0,
+      "image": "PRODUCTS/MP/sneaker01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Men's ZenStride Sneakers",
+      "price": 119.0,
+      "image": "PRODUCTS/MP/sneaker02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Men's Breathable Kicks",
+      "price": 99.0,
+      "image": "PRODUCTS/MP/sneaker03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Men's NRG+ Sneakers",
+      "price": 149.0,
+      "image": "PRODUCTS/MP/sneaker04.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Men's UltraBoost Kicks",
+      "price": 59.0,
+      "image": "PRODUCTS/MP/sneaker05.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Men's Slip-On Style Kicks",
+      "price": 129.0,
+      "image": "PRODUCTS/MP/sneaker06.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Men's Slip-On Style Kicks",
+      "price": 79.0,
+      "image": "PRODUCTS/MP/sneaker07.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Men's UrbanPro Sneakers",
+      "price": 89.0,
+      "image": "PRODUCTS/MP/sneaker08.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Men's NRG+ Sneakers",
+      "price": 139.0,
+      "image": "PRODUCTS/MP/sneaker09.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Skateboard Sneakers",
+      "price": 69.0,
+      "image": "PRODUCTS/MP/sneaker10.jpg"
+    }
+  ],
+  "loafers": [
+    {
+      "id": 11,
+      "name": "Men's Flex-It Moccs",
+      "price": 129.0,
+      "image": "PRODUCTS/MP/loafers01.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Men's Textured Loafers",
+      "price": 69.0,
+      "image": "PRODUCTS/MP/loafers02.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Men's Flex-It Moccs",
+      "price": 159.0,
+      "image": "PRODUCTS/MP/loafers03.png"
+    },
+    {
+      "id": 14,
+      "name": "Men's Formal Leather Loafers",
+      "price": 139.0,
+      "image": "PRODUCTS/MP/loafers04.png"
+    },
+    {
+      "id": 15,
+      "name": "Men's Smart Loafers",
+      "price": 89.0,
+      "image": "PRODUCTS/MP/loafers05.png"
+    },
+    {
+      "id": 16,
+      "name": "Men's Flex-It Moccs",
+      "price": 59.0,
+      "image": "PRODUCTS/MP/loafers06.png"
+    },
+    {
+      "id": 17,
+      "name": "Men's Flex-It Moccs",
+      "price": 179.0,
+      "image": "PRODUCTS/MP/loafers07.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Men's Trendy Loafers",
+      "price": 199.0,
+      "image": "PRODUCTS/MP/loafers08.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Men's Soft-Buckled Loafers",
+      "price": 99.0,
+      "image": "PRODUCTS/MP/loafers09.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Men's Textured Loafers",
+      "price": 149.0,
+      "image": "PRODUCTS/MP/loafers10.jpg"
+    }
+  ],
+  "Chappals": [
+    {
+      "id": 21,
+      "name": "Comfort Slides for Men",
+      "price": 199.0,
+      "image": "PRODUCTS/MP/Chappals01.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Men's Everyday Slippers",
+      "price": 149.0,
+      "image": "PRODUCTS/MP/Chappals02.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Men's Padded Chappals",
+      "price": 179.0,
+      "image": "PRODUCTS/MP/Chappals03.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Men's Round Toe Chappals",
+      "price": 159.0,
+      "image": "PRODUCTS/MP/Chappals04.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Men's Summer Chappals",
+      "price": 189.0,
+      "image": "PRODUCTS/MP/Chappals05.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Men's Summer Chappals",
+      "price": 129.0,
+      "image": "PRODUCTS/MP/Chappals06.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Men's Summer Chappals",
+      "price": 169.0,
+      "image": "PRODUCTS/MP/Chappals07.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Mens Buckled Chappals",
+      "price": 139.0,
+      "image": "PRODUCTS/MP/Chappals08.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Mens Buckled Chappals",
+      "price": 179.0,
+      "image": "PRODUCTS/MP/Chappals09.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Summer Chappal for Men",
+      "price": 149.0,
+      "image": "PRODUCTS/MP/Chappals10.jpg"
+    }
+  ],
+  "sandals": [
+    {
+      "id": 31,
+      "name": "Men's Cloud Step Sandals",
+      "price": 79.0,
+      "image": "PRODUCTS/MP/sandals01.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Men's Padded-Sole Sandals",
+      "price": 59.0,
+      "image": "PRODUCTS/MP/sandals02.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Men's Colorblock Sandals",
+      "price": 49.0,
+      "image": "PRODUCTS/MP/sandals03.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Men's Extra Comfort Sandals",
+      "price": 69.0,
+      "image": "PRODUCTS/MP/sandals04.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Leather Flip Flops",
+      "price": 39.0,
+      "image": "PRODUCTS/MP/sandals05.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Adventure Sandals",
+      "price": 89.0,
+      "image": "PRODUCTS/MP/sandals06.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Casual Slides",
+      "price": 45.0,
+      "image": "PRODUCTS/MP/sandals07.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Premium Leather Sandals",
+      "price": 99.0,
+      "image": "PRODUCTS/MP/sandals08.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Outdoor Sandals",
+      "price": 79.0,
+      "image": "PRODUCTS/MP/sandals09.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Summer Slides",
+      "price": 55.0,
+      "image": "PRODUCTS/MP/sandals10.jpg"
+    }
+  ],
+  "formal": [
+    {
+      "id": 41,
+      "name": "Men's Casual Oxford Shoes",
+      "price": 229.0,
+      "image": "PRODUCTS/MP/formalshoes1.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Men's Classic Appeal Formals",
+      "price": 199.0,
+      "image": "PRODUCTS/MP/formalshoes2.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Men's Horsebit Buckled Shoes",
+      "price": 249.0,
+      "image": "PRODUCTS/MP/formalshoes3.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Men's Horsebit Buckled Shoes",
+      "price": 219.0,
+      "image": "PRODUCTS/MP/formalshoes4.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Leather Monk Straps",
+      "price": 239.0,
+      "image": "PRODUCTS/MP/formalshoes5.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Patent Leather Shoes",
+      "price": 259.0,
+      "image": "PRODUCTS/MP/formalshoes6.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Tassel Loafers",
+      "price": 189.0,
+      "image": "PRODUCTS/MP/formalshoes7.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Double Monk Straps",
+      "price": 269.0,
+      "image": "PRODUCTS/MP/formalshoes8.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Classic Brogues",
+      "price": 209.0,
+      "image": "PRODUCTS/MP/formalshoes9.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Formal Slip-Ons",
+      "price": 179.0,
+      "image": "PRODUCTS/MP/formalshoes10.jpg"
+    }
+  ],
+  "Heels": [
+    {
+      "id": 51,
+      "name": "Women's Statement Heel Boots",
+      "price": 89.0,
+      "image": "PRODUCTS/WP/heel01.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Women's Slingback Heels",
+      "price": 119.0,
+      "image": "PRODUCTS/WP/heel02.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Women's Block Heel Loafers",
+      "price": 99.0,
+      "image": "PRODUCTS/WP/heel03.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Women's Slingback Heels",
+      "price": 79.0,
+      "image": "PRODUCTS/WP/heel04.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Women's Pointed Toe Heels",
+      "price": 109.0,
+      "image": "PRODUCTS/WP/heel05.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Women's Mary Jane Heels",
+      "price": 89.0,
+      "image": "PRODUCTS/WP/heel06.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Women's Studded Heels",
+      "price": 129.0,
+      "image": "PRODUCTS/WP/heel07.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Women's Quilted Heels",
+      "price": 69.0,
+      "image": "PRODUCTS/WP/heel08.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Women's Quilted Heels",
+      "price": 99.0,
+      "image": "PRODUCTS/WP/heel09.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Women's Mademoiselle Heels",
+      "price": 139.0,
+      "image": "PRODUCTS/WP/heel10.jpg"
+    }
+  ],
+  "Flats": [
+    {
+      "id": 61,
+      "name": "Ballet Flats",
+      "price": 59.0,
+      "image": "PRODUCTS/WP/flats01.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Pointed Toe Flats",
+      "price": 79.0,
+      "image": "PRODUCTS/WP/flats02.jpg"
+    },
+    {
+      "id": 63,
+      "name": "Loafers",
+      "price": 89.0,
+      "image": "PRODUCTS/WP/flats03.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Mary Jane Flats",
+      "price": 69.0,
+      "image": "PRODUCTS/WP/flats04.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Espadrille Flats",
+      "price": 59.0,
+      "image": "PRODUCTS/WP/flats05.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Bow Flats",
+      "price": 79.0,
+      "image": "PRODUCTS/WP/flats06.jpg"
+    },
+    {
+      "id": 67,
+      "name": "Velvet Flats",
+      "price": 89.0,
+      "image": "PRODUCTS/WP/flats07.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Metallic Flats",
+      "price": 99.0,
+      "image": "PRODUCTS/WP/flats08.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Slip-On Flats",
+      "price": 49.0,
+      "image": "PRODUCTS/WP/flats09.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Embellished Flats",
+      "price": 109.0,
+      "image": "PRODUCTS/WP/flats10.jpg"
+    }
+  ],
+  "Boots": [
+    {
+      "id": 71,
+      "name": "Knee-High Boots",
+      "price": 129.0,
+      "image": "PRODUCTS/WP/boots01.jpg"
+    },
+    {
+      "id": 72,
+      "name": "Knee-High Boots",
+      "price": 129.0,
+      "image": "PRODUCTS/WP/boots02.jpg"
+    },
+    {
+      "id": 73,
+      "name": "Chelsea Boots",
+      "price": 139.0,
+      "image": "PRODUCTS/WP/boots03.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Over-the-Knee Boots",
+      "price": 179.0,
+      "image": "PRODUCTS/WP/boots04.jpg"
+    }
+  ],
+  "Women Sneakers": [
+    {
+      "id": 75,
+      "name": "Running Shoes",
+      "price": 99.0,
+      "image": "PRODUCTS/WP/Sneakers01.webp"
+    },
+    {
+      "id": 76,
+      "name": "Training Shoes",
+      "price": 89.0,
+      "image": "PRODUCTS/WP/Sneakers02.webp"
+    },
+    {
+      "id": 77,
+      "name": "Walking Shoes",
+      "price": 79.0,
+      "image": "PRODUCTS/WP/Sneakers03.webp"
+    },
+    {
+      "id": 78,
+      "name": "Cross-Trainers",
+      "price": 109.0,
+      "image": "PRODUCTS/WP/Sneakers04.webp"
+    },
+    {
+      "id": 79,
+      "name": "Trail Running Shoes",
+      "price": 119.0,
+      "image": "PRODUCTS/WP/Sneakers05.webp"
+    },
+    {
+      "id": 80,
+      "name": "Basketball Shoes",
+      "price": 129.0,
+      "image": "PRODUCTS/WP/Sneakers06.webp"
+    },
+    {
+      "id": 81,
+      "name": "Tennis Shoes",
+      "price": 89.0,
+      "image": "PRODUCTS/WP/Sneakers07.webp"
+    },
+    {
+      "id": 82,
+      "name": "Yoga Shoes",
+      "price": 69.0,
+      "image": "PRODUCTS/WP/Sneakers08.webp"
+    },
+    {
+      "id": 83,
+      "name": "Skate Shoes",
+      "price": 79.0,
+      "image": "PRODUCTS/WP/Sneakers09.webp"
+    },
+    {
+      "id": 84,
+      "name": "Hiking Shoes",
+      "price": 109.0,
+      "image": "PRODUCTS/WP/Sneakers10.webp"
+    }
+  ],
+  "Women Sandals": [
+    {
+      "id": 85,
+      "name": "Flip Flops",
+      "price": 29.0,
+      "image": "PRODUCTS/WP/wsandals01.webp"
+    },
+    {
+      "id": 86,
+      "name": "Gladiator Sandals",
+      "price": 59.0,
+      "image": "PRODUCTS/WP/wsandals02.webp"
+    },
+    {
+      "id": 87,
+      "name": "Slide Sandals",
+      "price": 39.0,
+      "image": "PRODUCTS/WP/wsandals03.webp"
+    },
+    {
+      "id": 88,
+      "name": "Platform Sandals",
+      "price": 79.0,
+      "image": "PRODUCTS/WP/wsandals04.webp"
+    },
+    {
+      "id": 89,
+      "name": "Espadrille Sandals",
+      "price": 69.0,
+      "image": "PRODUCTS/WP/wsandals05.webp"
+    },
+    {
+      "id": 90,
+      "name": "Wedge Sandals",
+      "price": 89.0,
+      "image": "PRODUCTS/WP/wsandals06.webp"
+    },
+    {
+      "id": 91,
+      "name": "Ankle Strap Sandals",
+      "price": 59.0,
+      "image": "PRODUCTS/WP/wsandals07.webp"
+    },
+    {
+      "id": 92,
+      "name": "Toe Ring Sandals",
+      "price": 49.0,
+      "image": "PRODUCTS/WP/wsandals08.webp"
+    },
+    {
+      "id": 93,
+      "name": "Boho Sandals",
+      "price": 69.0,
+      "image": "PRODUCTS/WP/wsandals09.webp"
+    },
+    {
+      "id": 94,
+      "name": "Designer Sandals",
+      "price": 129.0,
+      "image": "PRODUCTS/WP/wsandals10.webp"
+    }
+  ],
+  "Kids Sneakers": [
+    {
+      "id": 101,
+      "name": "Kids' Colorful Running Shoes",
+      "price": 49.0,
+      "image": "PRODUCTS/KP/sneakers01.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Kids' Light-Up Sneakers",
+      "price": 59.0,
+      "image": "PRODUCTS/KP/sneakers02.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Kids' Sporty Sneakers",
+      "price": 39.0,
+      "image": "PRODUCTS/KP/sneakers03.jpg"
+    },
+    {
+      "id": 104,
+      "name": "Kids' Velcro Strap Sneakers",
+      "price": 45.0,
+      "image": "PRODUCTS/KP/sneakers04.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Kids' Bouncy Sneakers",
+      "price": 55.0,
+      "image": "PRODUCTS/KP/sneakers05.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Kids' Cartoon Character Sneakers",
+      "price": 49.0,
+      "image": "PRODUCTS/KP/sneakers06.jpg"
+    },
+    {
+      "id": 107,
+      "name": "Kids' Breathable Mesh Sneakers",
+      "price": 42.0,
+      "image": "PRODUCTS/KP/sneakers07.jpg"
+    },
+    {
+      "id": 108,
+      "name": "Kids' Slip-Resistant Sneakers",
+      "price": 59.0,
+      "image": "PRODUCTS/KP/sneakers08.jpg"
+    },
+    {
+      "id": 109,
+      "name": "Kids' High-Top Sneakers",
+      "price": 65.0,
+      "image": "PRODUCTS/KP/sneakers09.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Kids' Everyday Sneakers",
+      "price": 35.0,
+      "image": "PRODUCTS/KP/sneakers10.jpg"
+    }
+  ],
+  "Kids Sandals": [
+    {
+      "id": 111,
+      "name": "Kids' Adjustable Strap Sandals",
+      "price": 29.0,
+      "image": "PRODUCTS/KP/sandals01.jpg"
+    },
+    {
+      "id": 112,
+      "name": "Kids' Water-Friendly Sandals",
+      "price": 35.0,
+      "image": "PRODUCTS/KP/sandals02.jpg"
+    },
+    {
+      "id": 113,
+      "name": "Kids' Sport Sandals",
+      "price": 39.0,
+      "image": "PRODUCTS/KP/sandals03.jpg"
+    },
+    {
+      "id": 114,
+      "name": "Kids' Beach Sandals",
+      "price": 25.0,
+      "image": "PRODUCTS/KP/sandals04.jpg"
+    },
+    {
+      "id": 115,
+      "name": "Kids' Cushioned Sandals",
+      "price": 32.0,
+      "image": "PRODUCTS/KP/sandals05.jpg"
+    },
+    {
+      "id": 116,
+      "name": "Kids' Character Sandals",
+      "price": 28.0,
+      "image": "PRODUCTS/KP/sandals06.jpg"
+    },
+    {
+      "id": 117,
+      "name": "Kids' Gladiator Sandals",
+      "price": 34.0,
+      "image": "PRODUCTS/KP/sandals07.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Kids' Quick-Dry Sandals",
+      "price": 31.0,
+      "image": "PRODUCTS/KP/sandals08.jpg"
+    },
+    {
+      "id": 119,
+      "name": "Kids' Closed-Toe Sandals",
+      "price": 36.0,
+      "image": "PRODUCTS/KP/sandals09.jpg"
+    },
+    {
+      "id": 120,
+      "name": "Kids' Slip-On Sandals",
+      "price": 27.0,
+      "image": "PRODUCTS/KP/sandals10.jpg"
+    }
+  ],
+  "Kids Boots": [
+    {
+      "id": 121,
+      "name": "Kids' Rain Boots",
+      "price": 45.0,
+      "image": "PRODUCTS/KP/boots01.jpg"
+    },
+    {
+      "id": 122,
+      "name": "Kids' Winter Snow Boots",
+      "price": 59.0,
+      "image": "PRODUCTS/KP/boots02.jpg"
+    },
+    {
+      "id": 123,
+      "name": "Kids' Ankle Boots",
+      "price": 49.0,
+      "image": "PRODUCTS/KP/boots03.jpg"
+    },
+    {
+      "id": 124,
+      "name": "Kids' Hiking Boots",
+      "price": 55.0,
+      "image": "PRODUCTS/KP/boots04.jpg"
+    },
+    {
+      "id": 125,
+      "name": "Kids' Furry Boots",
+      "price": 65.0,
+      "image": "PRODUCTS/KP/boots05.jpg"
+    },
+    {
+      "id": 126,
+      "name": "Kids' Cowboy Boots",
+      "price": 69.0,
+      "image": "PRODUCTS/KP/boots06.jpg"
+    },
+    {
+      "id": 127,
+      "name": "Kids' Chelsea Boots",
+      "price": 52.0,
+      "image": "PRODUCTS/KP/boots07.jpg"
+    },
+    {
+      "id": 128,
+      "name": "Kids' Waterproof Boots",
+      "price": 59.0,
+      "image": "PRODUCTS/KP/boots08.jpg"
+    },
+    {
+      "id": 129,
+      "name": "Kids' Light-Up Boots",
+      "price": 62.0,
+      "image": "PRODUCTS/KP/boots09.jpg"
+    },
+    {
+      "id": 130,
+      "name": "Kids' Fashion Boots",
+      "price": 49.0,
+      "image": "PRODUCTS/KP/boots10.jpg"
+    }
+  ],
+ "kids chappal": [
+  {
+    "id": 131,
+    "name": "Kids' Casual Slip-On Chappals",
+    "price": 65.0,
+    "image": "PRODUCTS/KP/chapal01.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Kids' Soft Foam Chappals",
+    "price": 55.0,
+    "image": "PRODUCTS/KP/chapal02.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Kids' Waterproof Beach Chappals",
+    "price": 59.0,
+    "image": "PRODUCTS/KP/chapal03.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Kids' T-Strap Chappals",
+    "price": 49.0,
+    "image": "PRODUCTS/KP/chapal04.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Kids' Velcro Strap Chappals",
+    "price": 45.0,
+    "image": "PRODUCTS/KP/chapal05.jpg"
+  }
+  
+]
+
+}

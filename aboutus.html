@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMAGES/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR START -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">SHO<span>EVO</span></a>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>          
+            <li class="dropdown">
+                <a href="mensec.html">Men <i class="fas fa-chevron-down icon"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="mensec.html#sneakers">Sneakers</a></li>
+                    <li><a href="mensec.html#loafers">Loafers</a></li>
+                    <li><a href="mensec.html#Chappals">Chappals</a></li>
+                    <li><a href="mensec.html#sandals">Sandals</a></li>
+                    <li><a href="mensec.html#formal">Formal Shoes</a></li>
+                </ul>
+            </li>
+            
+            <li class="dropdown">
+                <a href="women.html">Women <i class="fas fa-chevron-down icon"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="women.html#Heels">Heels</a></li>
+                    <li><a href="women.html#Flats">Flats</a></li>
+                    <li><a href="women.html#Boots">Boots</a></li>
+                    <li><a href="women.html#Women Sneakers">Sneakers</a></li>
+                    <li><a href="women.html#Women Sandals">Sandals</a></li>
+                </ul>
+            </li>
+            
+            <li class="dropdown">
+                <a href="kids.html">Kids <i class="fas fa-chevron-down icon"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="kids.html#Kids Sneakers">Sneakers</a></li>
+                    <li><a href="kids.html#Kids Sandals">Sandals</a></li>
+                    <li><a href="kids.html#Kids Boots">Boots</a></li>
+                    <li><a href="kids.html#kids chappal">Chappals</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        
+        <div class="nav-actions">
+            <a href="cart.html" class="cart-icon">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count" id="headerCartCount">0</span>
+            </a>
+        </div>
+        
+        <button class="menu-btn" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+<!-- NAVBAR END -->
+
+
+    <!-- Hero Section -->
+    <section  class="about-hero">
+        <div  class="container">
+            <div class="about-hero-content">
+                <h1 data-aos="fade-up">Our Journey in Footwear Excellence</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Discover the passion and craftsmanship behind SHOEVO</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="about-story">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Story</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="story-content">
+                <div class="story-text" data-aos="fade-right">
+                    <h3>From Humble Beginnings to Premium Footwear</h3>
+                    <p>Founded in 2015, SHOEVO began as a small workshop with a big dream - to create footwear that combines unparalleled comfort with cutting-edge style. What started as a passion project between two shoe enthusiasts has grown into a brand recognized for its quality and innovation.</p>
+                    <p>Every SHOEVO product is crafted with attention to detail, using only the finest materials. We believe that great shoes should not only look exceptional but feel incredible from the first step to the last mile.</p>
+                </div>
+                <div class="story-image" >
+                    <img src="IMAGES/aboutus.jpg" alt="SHOEVO workshop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="about-values">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Core Values</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="values-grid">
+                <div class="value-card" data-aos="zoom-in">
+                    <div class="value-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Quality Craftsmanship</h3>
+                    <p>Each pair undergoes rigorous quality checks to ensure durability and comfort that lasts.</p>
+                </div>
+                <div class="value-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="value-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sustainable Materials</h3>
+                    <p>We're committed to eco-friendly practices, using sustainable materials wherever possible.</p>
+                </div>
+                <div class="value-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="value-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>Your happiness is our priority, with dedicated support for every purchase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Policies Section -->
+    <section class="about-policies">
+        <div class="container">
+            <div class="policies-accordion">
+                <div class="policy-item" data-aos="fade-up">
+                    <button class="policy-header">
+                        <h3>Returns & Exchanges</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="policy-content">
+                        <p>We want you to be completely satisfied with your SHOEVO purchase. If for any reason you're not happy with your order, we offer a 30-day return policy from the date of delivery.</p>
+                        <ul>
+                            <li>Items must be unworn, in original condition with all tags attached</li>
+                            <li>Original proof of purchase required</li>
+                            <li>Return shipping is the customer's responsibility</li>
+                            <li>Refunds will be processed within 5-7 business days</li>
+                        </ul>
+                        <a href="#" class="policy-link">View full return policy</a>
+                    </div>
+                </div>
+                <div class="policy-item" data-aos="fade-up" data-aos-delay="100">
+                    <button class="policy-header">
+                        <h3>Shipping Info</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="policy-content">
+                        <p>We ship worldwide from our warehouses in the US, Europe, and Asia to ensure fast delivery times.</p>
+                        <div class="shipping-grid">
+                            <div class="shipping-method">
+                                <h4>Standard Shipping</h4>
+                                <p>3-5 business days - $5.99</p>
+                                <p>Free on orders over $100</p>
+                            </div>
+                            <div class="shipping-method">
+                                <h4>Express Shipping</h4>
+                                <p>1-2 business days - $14.99</p>
+                                <p>Free on orders over $200</p>
+                            </div>
+                        </div>
+                        <p>International shipping times vary by destination. Customs fees may apply.</p>
+                        <a href="#" class="policy-link">View full shipping policy</a>
+                    </div>
+                </div>
+                <div class="policy-item" data-aos="fade-up" data-aos-delay="200">
+                    <button class="policy-header">
+                        <h3>Contact Us</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="policy-content">
+                        <div class="contact-grid">
+                            <div class="contact-method">
+                                <i class="fas fa-phone-alt"></i>
+                                <h4>Phone Support</h4>
+                                <p>+1 (800) 555-SHOE</p>
+                                <p>Mon-Fri: 9AM-6PM EST</p>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <h4>Email Us</h4>
+                                <p>support@shoevo.com</p>
+                                <p>Response within 24 hours</p>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-comment-dots"></i>
+                                <h4>Live Chat</h4>
+                                <p>Available on our website</p>
+                                <p>Mon-Fri: 9AM-6PM EST</p>
+                            </div>
+                        </div>
+                        <p>For wholesale inquiries, please email wholesale@shoevo.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="about-team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Meet The Founders</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-image">
+                        <img src="IMAGES/aboutceo.jpg" alt="Alex Johnson">
+                    </div>
+                    <h3>Alex Johnson</h3>
+                    <p class="position">CEO & Co-Founder</p>
+                    <p class="bio">With 15 years in footwear design, Alex brings innovative vision to every SHOEVO collection.</p>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-image">
+                        <img src="IMAGES/aboutcoo.jpg" alt="Sarah Chen">
+                    </div>
+                    <h3>Sarah Chen</h3>
+                    <p class="position">COO & Co-Founder</p>
+                    <p class="bio">Sarah's expertise in sustainable manufacturing shapes our ethical production practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="about-cta">
+        <div class="container" data-aos="fade-up">
+            <h2>Ready to Experience SHOEVO?</h2>
+            <p>Join thousands of satisfied customers stepping in comfort and style</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Shop Now</a>
+                <a href="#" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+ <!-- FOOTER SECTION START -->
+<footer class="site-footer">
+    <div class="footer-container">
+        <!-- Footer Top Section -->
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">SHO<span>EVO</span></a>
+                <p class="footer-tagline">Step into luxury with our premium footwear collection</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3 class="links-title">Shop</h3>
+                    <ul>
+                        <li><a href="#">Men's Collection</a></li>
+                        <li><a href="#">Women's Collection</a></li>
+                        <li><a href="#">Kids' Collection</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Sale Items</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3 class="links-title">About us</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3 class="links-title">Newsletter</h3>
+                    <p>Subscribe for updates and exclusive offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa" title="Visa"></i>
+                <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                <i class="fab fa-cc-amex" title="American Express"></i>
+                <i class="fab fa-cc-paypal" title="PayPal"></i>
+                <i class="fab fa-cc-apple-pay" title="Apple Pay"></i>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 SHOEVO. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER SECTION END -->
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aboutus.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>

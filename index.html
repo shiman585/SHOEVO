@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMAGES/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR START -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">SHO<span>EVO</span></a>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>          
+            <li class="dropdown">
+                <a href="mensec.html">Men <i class="fas fa-chevron-down icon"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="mensec.html#sneakers">Sneakers</a></li>
+                    <li><a href="mensec.html#loafers">Loafers</a></li>
+                    <li><a href="mensec.html#Chappals">Chappals</a></li>
+                    <li><a href="mensec.html#sandals">Sandals</a></li>
+                    <li><a href="mensec.html#formal">Formal Shoes</a></li>
+                </ul>
+            </li>
+            
+            <li class="dropdown">
+                <a href="women.html">Women <i class="fas fa-chevron-down icon"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="women.html#Heels">Heels</a></li>
+                    <li><a href="women.html#Flats">Flats</a></li>
+                    <li><a href="women.html#Boots">Boots</a></li>
+                    <li><a href="women.html#Women Sneakers">Sneakers</a></li>
+                    <li><a href="women.html#Women Sandals">Sandals</a></li>
+                </ul>
+            </li>
+            
+            <li class="dropdown">
+                <a href="kids.html">Kids <i class="fas fa-chevron-down icon"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="kids.html#Kids Sneakers">Sneakers</a></li>
+                    <li><a href="kids.html#Kids Sandals">Sandals</a></li>
+                    <li><a href="kids.html#Kids Boots">Boots</a></li>
+                    <li><a href="kids.html#kids chappal">Chappals</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        
+        <div class="nav-actions">
+            <a href="cart.html" class="cart-icon">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count" id="headerCartCount">0</span>
+            </a>
+        </div>
+        
+        <button class="menu-btn" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+<!-- NAVBAR END -->
+
+
+<!-- HERO SECTION START -->
+  <!-- Laptop View (1024px+) -->
+ <section class="hero">
+  <div class="hero-container">
+    <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Premium Collection</p>
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">Luxury <span>Shoes</span></h1>
+      <p class="hero-text" data-aos="fade-up" data-aos-delay="300">
+        Experience unparalleled comfort and style with our handcrafted luxury shoe collection.
+        Made with premium materials and exceptional attention to detail.
+      </p>
+  <div class="cta-button-group" data-aos="fade-up" data-aos-delay="400">
+  <a href="mensec.html" class="cta-btn cta-primary">Shop Now</a>
+  <a href="women.html" class="cta-btn cta-secondary">View Collection</a>
+</div>
+
+    </div>
+    <div class="hero-image" data-aos="zoom-in-left" data-aos-duration="1200">
+      <img src="IMAGES/herosec.png" alt="Luxury Shoes">
+      <div class="shadow"></div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Tablet View (486px-1023px) -->
+ <section  class="slider-section">
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide" data-aos="fade-up" data-aos-duration="800" data-aos-once="false">
+        <img src="IMAGES/banner 01.jpg" alt="Running Shoes">
+        <div class="slide-content">
+          <h3 class="slide-title">Performance Running</h3>
+          <p class="slide-text">Engineered for speed with responsive cushioning and breathable materials.</p>
+          <a href="kids.html"><button class="slide-btn">Shop Now</button></a>
+        </div>
+      </div>
+      <div class="slide" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="false">
+        <img src="IMAGES/banner 02.jpg" alt="Casual Shoes">
+        <div class="slide-content">
+          <h3 class="slide-title">Casual Elegance</h3>
+          <p class="slide-text">Premium leather crafted for everyday comfort with timeless style.</p>
+          <a href="mensec.html"><button class="slide-btn">Explore Collection</button></a>
+        </div>
+      </div>
+      <div class="slide" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="false">
+        <img src="IMAGES/banner 03.jpg" alt="Basketball Shoes">
+        <div class="slide-content">
+          <h3 class="slide-title">Court Dominance</h3>
+          <p class="slide-text">High-performance basketball shoes with superior ankle support.</p>
+          <a href="women.html"><button class="slide-btn">View Details</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-arrow left"><i class="fas fa-chevron-left"></i></div>
+    <div class="slider-arrow right"><i class="fas fa-chevron-right"></i></div>
+    <div class="slider-nav">
+      <div class="slider-dot active"></div>
+      <div class="slider-dot"></div>
+      <div class="slider-dot"></div>
+    </div>
+  </div>
+</section>
+
+ <!-- Mobile View (0-485px) -->
+<section class="mobile-banner" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-once="false">
+  <div class="banner-content">
+    <p class="banner-subtitle" data-aos="fade-up" data-aos-delay="150" data-aos-duration="700" data-aos-once="false">Exclusive Mobile Offer</p>
+    <h1 class="banner-title" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="false">
+      Luxury <span>Redefined</span>
+    </h1>
+    <div class="divider-line" data-aos="fade-up" data-aos-delay="450" data-aos-duration="600" data-aos-once="false"></div>
+    <p class="banner-text" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" data-aos-once="false">
+      Enjoy 20% inaugural savings on our premium collection when you shop via mobile.
+    </p>
+    <a href="mensec.html" class="banner-btn" data-aos="fade-up" data-aos-delay="750" data-aos-duration="700" data-aos-once="false">
+      <span>Claim Your Offer</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+ <!-- HERO SECTION END -->
+
+
+
+   <!-- BEST SELLER SECTION START -->
+<div class="container">
+  <div class="section-header">
+    <h2>Best sellers</h2>
+    <a href="kids.html" class="see-all">See All →</a>
+  </div>
+
+  <div class="grid">
+    <!-- Product 1 -->
+    <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/WP/flats10.jpg" alt="Urban Runner Sneakers">
+      <div class="product-info">
+        <h3>Embellished Flats</h3>
+        <p>$109</p>
+      </div> 
+     <a href="women.html#Flats"><button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 2 -->
+    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/MP/loafers02.jpg" alt="Minimalist Slip-Ons">
+      <div class="product-info">
+        <h3>Men's Textured Loafers</h3>
+        <p>$69</p>
+      </div>
+    <a href="mensec.html#loafers"> <button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 3 -->
+    <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/WP/flats02.jpg" alt="All-Terrain Trainers">
+      <div class="product-info">
+        <h3>Pointed Toe Flats</h3>
+        <p>$79</p>
+      </div>
+     <a href="women.html#Flats"><button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 4 -->
+    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/MP/sandals02.jpg" alt="Retro High Tops">
+      <div class="product-info">
+        <h3>Men's Padded-Sole Sandals</h3>
+        <p>$59</p>
+      </div>
+     <a href="mensec.html#sandals"><button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+  </div>
+</div>
+  <!-- BEST SELLER SECTION END -->
+
+
+
+  <!-- CATEGORY SECTION START -->
+    <div class="container">
+   <h2 class="section-title">
+  <span style="color: RED;">Explore</span> <span style="color: BLACK;">Categories</span>
+</h2>
+
+    <div  class="category-grid">
+      <div class="left category-item">
+        <video class="category-media" autoplay loop muted playsinline>
+          <source src="videos/mensec.mp4" type="video/mp4">
+        </video>
+        <div  class="overlay">
+          <h2  class="category-name">Men</h2>
+          <a href="mensec.html"><button class="shop-btn">Shop Now</button></a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="category-item right-top">
+          <video class="category-media" autoplay loop muted playsinline>
+            <source src="videos/womensec.mp4" type="video/mp4">
+          </video>
+          <div class="overlay">
+            <h2 class="category-name">Women</h2>
+            <a href="women.html"><button class="shop-btn">Shop Now</button></a>
+          </div>
+        </div>
+        <div class="category-item right-bottom">
+          <video class="category-media" autoplay loop muted playsinline>
+            <source src="videos/kidsec.mp4" type="video/mp4">
+          </video>
+          <div class="overlay">
+            <h2 class="category-name">Kids</h2>
+           <a href="kids.html"> <button class="shop-btn">Shop Now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- CATEGORY SECTION END -->
+
+
+
+
+   <!-- TOP PICK SECTION START -->
+ <div class="wrapper">
+    <h2>Top Picks</h2>
+    <div class="cat-btns">
+      <button id="menBtn" onclick="showCategory('men')">Shop Men's</button>
+      <button id="womenBtn" onclick="showCategory('women')">Shop Women's</button>
+      <button id="kidsBtn" onclick="showCategory('kids')" class="active">Shop Kids'</button>
+    </div>
+    <div class="items-grid" id="productGrid"></div>
+  </div>
+<!-- TOP PICK SECTION END -->
+
+
+
+
+<!-- REEL VIDEO SECTION START -->
+  <div class="marquee-container">
+        <div class="marquee-track">
+            <span class="marquee-content">See All PAY LATER</span>
+            <span class="marquee-content">FREE SHIPPING ON ALL PRE PAID ORDERS</span>
+            <span class="marquee-content">See All PAY LATER</span>
+            <span class="marquee-content">FREE SHIPPING ON ALL PRE PAID ORDERS</span>
+            <!-- Duplicate content for seamless looping -->
+            <span class="marquee-content">See All PAY LATER</span>
+            <span class="marquee-content">FREE SHIPPING ON ALL PRE PAID ORDERS</span>
+            <span class="marquee-content">See All PAY LATER</span>
+            <span class="marquee-content">FREE SHIPPING ON ALL PRE PAID ORDERS</span>
+        </div>
+    </div>
+    
+        <a href="women.html">
+       <div  class="video-row">
+         <div class="video-card">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/reel01.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        </a>
+        
+      <a href="mensec.html">
+          <div class="video-card">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/reel02.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+      </a>
+        
+       <a href="women.html">
+         <div class="video-card">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/reel03.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+       </a>
+        
+      <a href="kids.html">
+          <div class="video-card">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/reel04.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+      </a>
+        
+        <a href="women.html">
+          <div class="video-card">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/reel05.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+        </a>
+<!-- REEL VIDEO SECTION END -->
+
+
+
+<br><br><br>
+<!-- BEST SELLER SECTION 02 START -->
+<div class="container">
+  <div class="section-header">
+    <h2>New Arrivials</h2>
+    <a href="#" class="see-all">See All →</a>
+  </div>
+
+  <div class="grid">
+    <!-- Product 1 -->
+    <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/MP/loafers05.png" alt="Urban Runner Sneakers">
+      <div class="product-info">
+        <h3>Men's Smart Loafers</h3>
+        <p>$89</p>
+      </div>
+      <a href="mensec.html#loafers"><button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 2 -->
+    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/WP/flats08.jpg" alt="Minimalist Slip-Ons">
+      <div class="product-info">
+        <h3>Metallic Flats</h3>
+        <p>$99</p>
+      </div>
+     <a href="women.html#Flats"> <button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 3 -->
+    <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/MP/loafers02.jpg" alt="All-Terrain Trainers">
+      <div class="product-info">
+        <h3>Men's Textured Loafers</h3>
+        <p>$69</p>
+      </div>
+     <a href="mensec.html#loafers"> <button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 4 -->
+    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/MP/Chappals09.jpg" alt="Retro High Tops">
+      <div class="product-info">
+        <h3>Mens Buckled Chappals</h3>
+        <p>$179</p>
+      </div>
+<a href="mensec.html#Chappals"><button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+  </div>
+
+    <div class="grid">
+    <!-- Product 5 -->
+    <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/WP/heel08.jpg" alt="Urban Runner Sneakers">
+      <div class="product-info">
+        <h3>Women's Quilted Heels</h3>
+        <p>$69</p>
+      </div>
+     <a href="women.html#Heels"> <button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 6 -->
+    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/KP/sandals02.jpg" alt="Minimalist Slip-Ons">
+      <div class="product-info">
+        <h3>Kids' Water-Friendly Sandals</h3>
+        <p>$35</p>
+      </div>
+      <a href="kids.html#Kids Sandals"><button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 7 -->
+    <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/MP/sandals02.jpg" alt="All-Terrain Trainers">
+      <div class="product-info">
+        <h3>Men's Padded-Sole Sandals</h3>
+        <p>$59</p>
+      </div>
+     <a href="mensec.html#sandals"> <button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+
+    <!-- Product 8 -->
+    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" class="product">
+      <img src="PRODUCTS/WP/flats01.jpg" alt="Retro High Tops">
+      <div class="product-info">
+        <h3>Ballet Flats</h3>
+        <p>$59</p>
+      </div>
+     <a href="women.html#Flats"> <button class="add-to-cart">
+    <i class="fas fa-shopping-cart"></i> See All
+  </button></a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <!-- BEST SELLER SECTION 02 END -->
+
+
+
+
+<!-- PREMIUM COLLECTION SECTION START -->
+    <div class="wrapper-box">
+    <h1 class="heading-title">
+      <span class="text-red">Premium</span> <span class="text-black">Collections</span>
+    </h1>
+
+    <div class="grid-layout">
+      <!-- Card 1 -->
+      <div data-aos="zoom-in" data-aos-duration="1000" class="shoe-card">
+        <div class="img-layer">
+          <img src="IMAGES/PCMEN01.jpg" class="slide-image" alt="Luxury Shoes">
+          <a href="mensec.html" target="_blank" class="shop-link">Shop Now</a>
+        </div>
+        <div class="img-layer">
+          <img src="IMAGES/PCMEN02.jpg" class="slide-image" alt="Luxury Shoes">
+          <a href="mensec.html" target="_blank" class="shop-link">Shop Now</a>
+        </div>
+        <div class="img-layer">
+          <img src="IMAGES/PCMEN03.jpg" class="slide-image" alt="Luxury Shoes">
+          <a href="mensec.html" target="_blank" class="shop-link">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div data-aos="zoom-in" data-aos-duration="1000"class="shoe-card">
+        <div class="img-layer">
+          <img src="IMAGES/PCWOMEN01.jpg" class="slide-image" alt="Designer Shoes">
+          <a href="women.html" target="_blank" class="shop-link">Shop Now</a>
+        </div>
+        <div class="img-layer">
+          <img src="IMAGES/PCWOMEN02.jpg" class="slide-image" alt="Designer Shoes">
+          <a href="women.html" target="_blank" class="shop-link">Shop Now</a>
+        </div>
+        <div class="img-layer">
+          <img src="IMAGES/PCWOMEN03.jpg" class="slide-image" alt="Designer Shoes">
+          <a href="women.html" target="_blank" class="shop-link">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- PERIUM COLLECTION SECTION END -->
+
+
+
+
+ <!-- DISCOVER OVER BRAND SECTION START -->
+  <section data-aos="fade-right" data-aos-duration="1000" class="sho-hero-section">
+    <div class="sho-container">
+      <div class="sho-visual-box">
+        <div class="sho-img-holder">
+          <img src="IMAGES/PCMEN03.jpg" alt="Contemporary men's fashion" class="sho-featured-img sho-img-primary">
+          <img src="IMAGES/PCWOMEN03.jpg" alt="Trendsetting women's streetwear" class="sho-featured-img sho-img-secondary">
+        </div>
+      </div>
+      
+      <div class="sho-text-area">
+        <span class="sho-brand-tag">Discover Our Brand</span>
+        <h1 class="sho-main-heading">SHOEVO</h1>
+        <p class="sho-description-text">
+          Step into SHOVEO. The best of women's streetwear, fashion,
+          lifestyle, and a bold community built on shoes.
+        </p>
+        <a href="kids.html" class="sho-action-btn">
+          Shop Now
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- DISCOVER OVER BRAND SECTION END -->
+
+  
+<!-- FOOTER SECTION START -->
+<footer class="site-footer">
+    <div class="footer-container">
+        <!-- Footer Top Section -->
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">SHO<span>EVO</span></a>
+                <p class="footer-tagline">Step into luxury with our premium footwear collection</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3 class="links-title">Shop</h3>
+                    <ul>
+                        <li><a href="#">Men's Collection</a></li>
+                        <li><a href="#">Women's Collection</a></li>
+                        <li><a href="#">Kids' Collection</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Sale Items</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3 class="links-title">About us</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3 class="links-title">Newsletter</h3>
+                    <p>Subscribe for updates and exclusive offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa" title="Visa"></i>
+                <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                <i class="fab fa-cc-amex" title="American Express"></i>
+                <i class="fab fa-cc-paypal" title="PayPal"></i>
+                <i class="fab fa-cc-apple-pay" title="Apple Pay"></i>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 SHOEVO. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER SECTION END -->
+
+<script src="js/index.js"></script>
+<script src="js/header.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+</body>
+</html>
