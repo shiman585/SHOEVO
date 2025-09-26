@@ -6,13 +6,17 @@ document.addEventListener('DOMContentLoaded', function () {
   const menuIcon = menuToggle ? menuToggle.querySelector('i') : null;
 
   if (menuToggle && navLinks && menuIcon) {
+    // Toggle main menu
     menuToggle.addEventListener('click', function () {
       navLinks.classList.toggle('active');
       menuIcon.classList.toggle('fa-bars');
       menuIcon.classList.toggle('fa-times');
     });
+
+    // Dropdown toggle (mobile only)
     dropdowns.forEach(dropdown => {
       const link = dropdown.querySelector('a');
+      if (!link) return;
       link.addEventListener('click', function (e) {
         if (window.innerWidth <= 992) {
           e.preventDefault();
@@ -21,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
 
+    // Close menu when clicked outside
     document.addEventListener('click', function (e) {
       if (
         window.innerWidth <= 992 &&
@@ -51,8 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (cartIcon && cartModal && overlay) {
     cartIcon.addEventListener('click', function (e) {
-      // Agar <a href="cart.html"> hai to navigation ko roko
-      e.preventDefault();
+      e.preventDefault(); // prevent cart.html navigation
       cartModal.classList.add('open');
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
@@ -63,12 +67,13 @@ document.addEventListener('DOMContentLoaded', function () {
       overlay.classList.remove('open');
       document.body.style.overflow = 'auto';
     }
+
     if (closeModal) closeModal.addEventListener('click', closeCartModal);
     overlay.addEventListener('click', closeCartModal);
   }
 
   // --- HELPERS ---
-  const same = (a, b) => String(a) === String(b); // type-safe compare
+  const same = (a, b) => String(a) === String(b);
 
   function getCart() {
     try {
@@ -80,11 +85,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function saveCart(cart) {
     localStorage.setItem('cart', JSON.stringify(cart));
-  }
-
-  function findIndexBy(id, size) {
-    const cart = getCart();
-    return cart.findIndex(item => same(item.id, id) && same(item.size, size));
   }
 
   function updateCartCount() {
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (removeBtn) {
         removeFromCart(removeBtn.dataset.id, removeBtn.dataset.size);
-        return; // stop here to avoid double-handling
+        return;
       }
       if (minusBtn) {
         updateQuantity(minusBtn.dataset.id, minusBtn.dataset.size, -1);
@@ -244,7 +244,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // --- INITIALIZE CART ---
   refreshCartUI();
-
-  // OPTIONAL: if your old localStorage had different schema, uncomment once to reset
-  // localStorage.removeItem('cart');
 });
